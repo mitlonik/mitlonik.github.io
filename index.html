@@ -1,279 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Biminicats</title>
-    <!-- google fonts-->
-    <link href='https://fonts.googleapis.com/css?family=Raleway:800,300,400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="styles/main.min.css">
+	<title>Mitlonik</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<div id="wrapper">
+		<form name="login-form" class="login-form" action="" method="post">
+
+			<div class="header">
+				<h1>Login Form</h1>
+				<span>Fill out the form below to login to my super awesome imaginary control panel.</span>
+			</div>
+		
+			<div class="content">
+				<input name="username" type="text" class="input username" placeholder="Username" />
+				<div class="user-icon"></div>
+				<input name="password" type="password" class="input password" placeholder="Password" />
+				<div class="pass-icon"></div>		
+			</div>
+
+			<div class="footer">
+				<input type="submit" name="submit" value="Login" class="button" />
+				<input type="submit" name="submit" value="Register" class="register" />
+			</div>
+		</form>
+	</div>
+
+	<div class="gradient"></div>
+
 </head>
 
-<body class="b-page animsition">
-<div class="b-slider-line">
-    <div class="wrap-slider">
-        <div id="top-slider" class="owl-carousel b-header-slider">
-            <div style="background: url('images/background_img.png') center top"
-                 class="b-page-header-slider__img"></div>
-            <div style="background: url('images/background_img.png') center top"
-                 class="b-page-header-slider__img"></div>
-            <div style="background: url('images/background_img.png') center top"
-                 class="b-page-header-slider__img"></div>
-        </div>
-    </div>
-    <div class="b-logo">
-        <a href="#"> <img class="b-logo-img" alt="" src="images/logo_with_text.png"/> </a>
-        <a href="#"><img class="b-logo-small-img" alt="" src="images/logoForSmallScreen.png"/>
-        </a>
-    </div>
-    <div class="b-roof"></div>
-</div>
+<body>
 
-<header class="b-header">
-    <div class="b-page-line">
-        <div class="b-menu wrap-mobile-menu">
-            <!--<button class="b-menu-button">Menu</button>-->
-            <button class="b-menu-button c-hamburger c-hamburger--htx">
-                <span>toggle menu</span>
-            </button>
-
-            <ul class="b-menu-list wrap-menu-list">
-                <li class="b-menu-list-item"><a href="#"><span class="b-menu-list-item__text">HOME</span></a></li>
-                <li class="b-menu-list-item"><a href="#"><span class="b-menu-list-item__text">STUDS</span></a></li>
-                <li class="b-menu-list-item"><a href="#"><span class="b-menu-list-item__text">QUEENS</span></a></li>
-                <li class="b-menu-list-item"><a href="#"><span
-                        class="b-menu-list-item__text">AVAILABLE KITTENS</span></a></li>
-                <li class="b-menu-list-item"><a href="#"><span class="b-menu-list-item__text">ABYSSINIAN</span></a></li>
-                <li class="b-menu-list-item"><a href="#"><span
-                        class="b-menu-list-item__text">Sold Kittens</span></a></li>
-                <li class="b-menu-list-item"><a href="#"><span class="b-menu-list-item__text">videos</span></a></li>
-                <li class="b-menu-list-item"><a href="#"><span class="b-menu-list-item__text">contact</span></a></li>
-            </ul>
-        </div>
-    </div>
-</header>
-
-<div class="b-page-line">
-    <div class="b-about-us clearfix">
-
-        <div class="b-about-us__col2">
-            <div class="b-about-us-img">
-                <img src="images/house_img.png" alt=""/>
-            </div>
-        </div>
-
-        <div class="b-about-us__col1">
-            <div class="b-about-us-head ">
-                <span class="b-about-us-head__text">about us</span>
-            </div>
-            <div class="b-about-us-text">
-                <p class="b-about-us-text__text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                </p>
-                <p class="b-about-us-text__text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                </p>
-                <span class="b-about-us-text__text_welcome">welcome!</span>
-            </div>
-        </div>
-
-    </div>
-</div>
-
-<div class="b-page-line b-bengal-padding">
-    <div class="b-bengal-cats-head-line">
-        <div class="b-bengal-cats-head">
-            <span class="b-bengal-cats-head_text">BENGAL CATS</span>
-        </div>
-    </div>
-</div>
-
-<div class="b-page-line">
-    <div class="b-line-bengal-cats clearfix">
-        <div class="b-bengal-cats__col1">
-            <div class="b-bengal-cats-photos">
-                <a class="main-img-href" href="images/bengal_cat.png" data-lightbox="1">
-                    <img class="b-bengal-cats-photos__img" alt="" src="images/bengal_cat.png"/>
-                </a>
-                <div class="small-images-tray clearfix">
-                    <div class="small-images-tray__img">
-                        <img class="small-images-tray__img_img" src="images/bengal1_small.png"
-                             data-img-big="images/bengal_cat.png"/>
-                        <a href="images/bengal_cat.png" data-lightbox="1">
-                            <img src="images/zoomimg_glass.png" class="small-images-tray__img_zoom-img">
-                        </a>
-                    </div>
-                    <div class="small-images-tray__img">
-                        <img class="small-images-tray__img_img" src="images/bengal2_small.png"
-                             data-img-big="images/bengal-two.png"/>
-                        <a href="images/bengal-two.png" data-lightbox="1">
-                            <img src="images/zoomimg_glass.png" class="small-images-tray__img_zoom-img">
-                        </a>
-                    </div>
-                    <div class="small-images-tray__img">
-                        <img class="small-images-tray__img_img" src="images/bengal1_small.png"
-                             data-img-big="images/bengal_cat.png"/>
-                        <a href="images/bengal_cat.png" data-lightbox="1">
-                            <img src="images/zoomimg_glass.png" class="small-images-tray__img_zoom-img">
-                        </a>
-                    </div>
-                    <div class="small-images-tray__img">
-                        <img class="small-images-tray__img_img" src="images/bengal2_small.png"
-                             data-img-big="images/bengal-two.png"/>
-                        <a href="images/bengal-two.png" data-lightbox="1">
-                            <img src="images/zoomimg_glass.png" class="small-images-tray__img_zoom-img">
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div class="b-bengal-cats__col2">
-            <div class="b-bengal-cats-text">
-                <p class="b-bengal-cats-text__text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                </p>
-                <p class="b-bengal-cats-text__text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.
-                </p>
-                <div>
-                    <button class="b-bengal-cats-button">view more</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="b-page-line">
-    <div class="b-abyssian-cats-head">
-        <h1 class="b-abyssian-cats-head_text"> ABYSSINIAN CATS </h1>
-    </div>
-</div>
-
-<div class="b-page-line">
-    <div class="b-abyssian-cats clearfix">
-        <div class="b-abyssian-cats-col2">
-            <!-- <img class="b-abyssian-cats_img" alt="" src="images/abyssinian-cat.png"/>  -->
-            <div class="b-bengal-cats-photos">
-                <a class="main-img-href" href="images/abyssinian-cat.png" data-lightbox="2">
-                    <img class="b-bengal-cats-photos__img" alt="" src="images/abyssinian-cat.png"/>
-                </a>
-                <div class="small-images-tray clearfix">
-                    <div class="small-images-tray__img">
-                        <img class="small-images-tray__img_img" src="images/abyssinian-cat.png"
-                             data-img-big="images/abyssinian-cat.png"/>
-                        <a href="images/abyssinian-cat.png" data-lightbox="2">
-                            <img src="images/zoomimg_glass.png" class="small-images-tray__img_zoom-img">
-                        </a>
-                    </div>
-                    <div class="small-images-tray__img">
-                        <img class="small-images-tray__img_img" src="images/abyssinian2.png"
-                             data-img-big="images/abyssinian2.png"/>
-                        <a href="images/abyssinian2.png" data-lightbox="2">
-                            <img src="images/zoomimg_glass.png" class="small-images-tray__img_zoom-img">
-                        </a>
-                    </div>
-                    <div class="small-images-tray__img">
-                        <img class="small-images-tray__img_img" src="images/abyssinian-cat.png"
-                             data-img-big="images/abyssinian-cat.png"/>
-                        <a href="images/abyssinian-cat.png" data-lightbox="2">
-                            <img src="images/zoomimg_glass.png" class="small-images-tray__img_zoom-img">
-                        </a>
-                    </div>
-                    <div class="small-images-tray__img">
-                        <img class="small-images-tray__img_img" src="images/abyssinian2.png"
-                             data-img-big="images/abyssinian2.png"/>
-                        <a href="images/abyssinian2.png" data-lightbox="2">
-                            <img src="images/zoomimg_glass.png" class="small-images-tray__img_zoom-img">
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div class="b-abyssian-cats-col1">
-            <div class="b-abyssian-cats-text">
-                <p class="b-about-us-text__text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                </p>
-                <p class="b-about-us-text__text b-abyssian-cats-text_second-text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.
-                </p>
-                <div class="b-abyssian-cats-button">
-                    <button class="b-abyssian-cats-button__button">view more</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<footer class="b-footer clearfix">
-
-    <div class="footer-line1 clearfix">
-        <div class="b-footer-menu">
-            <ul class="b-footer-menu-list">
-                <li class="b-footer-menu-item"><a href="#"><span class="b-footer-menu-item__text">HOME</span></a></li>
-                <li class="b-footer-menu-item"><a href="#"><span class="b-footer-menu-item__text">STUDS</span></a></li>
-                <li class="b-footer-menu-item"><a href="#"><span class="b-footer-menu-item__text">QUEENS</span></a></li>
-                <li class="b-footer-menu-item"><a href="#"><span
-                        class="b-footer-menu-item__text">AVAILABLE KITTENS</span></a></li>
-                <li class="b-footer-menu-item"><a href="#"><span class="b-footer-menu-item__text">ABYSSINIAN</span></a>
-                </li>
-                <li class="b-footer-menu-item"><a href="#"><span
-                        class="b-footer-menu-item__text">Sold Kittens</span></a></li>
-                <li class="b-footer-menu-item"><a href="#"><span class="b-footer-menu-item__text">videos</span></a></li>
-                <li class="b-footer-menu-item"><a href="#"><span class="b-footer-menu-item__text">contact</span></a>
-                </li>
-            </ul>
-        </div>
-
-        <div class="b-footer-phone">
-            <span class="b-footer-phone__phone_phone">+7 (XXX) X-XXX-XXX</span>
-        </div>
-    </div>
-
-    <div class="footer-line2">
-        <div class="b-footer-phone__url">
-            <span class="b-footer-phone__url_url">bengal&abyssiniancats.com</span>
-        </div>
-
-        <div class="b-footer-rights">
-            <span class="b-footer-rights__rights">© 2016 BIMINI Cats. Все права защищены</span>
-        </div>
-    </div>
-
-</footer>
-
-<script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
-<!-- lightbox -->
-<script type="text/javascript" src="scripts/plugins/lightbox.js"></script>
-<!--lightbox end -->
-<script src="scripts/plugins/owl.carousel.min.js"></script>
-<script src="scripts/plugins/owl.autoplay.min.js"></script>
-<script src="scripts/plugins/owl.navigation.min.js"></script>
-<script src="scripts/plugins/custom_paginator.js"></script>
-<script src="scripts/plugins/menuHider.js"></script>
-<script src="scripts/plugins/mobile-menu.js"></script>
-<script src="scripts/plugins/animsition.js"></script>
-
-<script src="scripts/main.js"></script>
 </body>
 </html>
