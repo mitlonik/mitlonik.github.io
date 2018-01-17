@@ -9,10 +9,43 @@
 	<!-- W3.CSS should take care of all our styling needs and all device and browser differences -->
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 	
+	
 
 </head>
 
 <body>
+
+	<!-- Navigation -->
+	<nav class="w3-bar w3-black">
+	  <a href="#home" class="w3-button w3-bar-item w3-indigo">Home</a>
+	  <a href="#about" class="w3-button w3-bar-item w3-indigo">About</a>
+	  <a href="#contact" class="w3-button w3-bar-item w3-indigo">Contact</a>
+	</nav>
+
+	<!-- Slide Show -->
+	<section>
+	  <img class="mySlides" src="media/1.jpg" style="width:30%">
+	  <img class="mySlides" src="media/2.jpg" style="width:30%">
+	  <img class="mySlides" src="media/3.jpg" style="width:30%">
+	</section>
+	<script type="text/javascript">
+	// Automatic Slideshow - change image every 3 seconds
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";
+			}
+			myIndex++;
+			if (myIndex > x.length) {myIndex = 1}
+			x[myIndex-1].style.display = "block";
+			setTimeout(carousel, 1000);
+		}
+	</script>
+
 	<div class="container">
 		
 		<div class="header-descript">
