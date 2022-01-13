@@ -37,18 +37,3 @@ Use it freely but please do not republish, distribute or sell "as-is".
 ### Elegant Icons 
 
 [Elegant Icons](http://www.elegantthemes.com/blog/resources/elegant-icon-font/) by Elegant Themes. Licensed under [MIT](http://opensource.org/licenses/mit-license.html)
-
----
-
-# IDEA
-
-Personal blog about the most important :)
-
-### Митлоник - это:
-* Метла и слоник
-* Помощь животным (а в перспективе и людям
-* Приложение ресторанной еды с особенностями национальной кухни.
-
-### Логотип:
-* Сверическая буква М (словно смотришь через лупу) . Можно даже ручку лупы и дорисовать;
-* Анимированная лупа-переход к человечку и выглядывают разные звери. Фон меняется в зависимости от ареала категории животного.
