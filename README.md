@@ -1,54 +1,25 @@
-# ActiveBox
+# Идеи
 
-One Page Multi Purpose Website Template created by [Kamal Chaneman](http://kamalchaneman.com/)
+Личный блог о самом важном :)
 
-[Demo](http://kamalchaneman.com/activebox/)
-
-## License
-
-Use it freely but please do not republish, distribute or sell "as-is".
-
-## Credits 
-
-### Bootstrap
-
-[Bootstrap](http://getbootstrap.com/) by Twitter. Licensed under [MIT](https://github.com/twbs/bootstrap/blob/master/LICENSE)
-
-### FancyBox
-
-[FancyBox](http://fancyapps.com/fancybox/) by fancyApps. Licensed under [CC BY-NC 3.0](http://creativecommons.org/licenses/by-nc/3.0/)
-
-### FlexSlider
-
-[FlexSlider](http://www.woothemes.com/flexslider/) by WooThemes. Licensed under [GNU GENERAL PUBLIC LICENSE](https://github.com/woothemes/FlexSlider/blob/master/LICENSE.md)
-
-### Waypoints
-
-[Waypoints](https://github.com/imakewebthings/waypoints) by Caleb Troughton. Licensed under [MIT](https://github.com/imakewebthings/waypoints/blog/master/licenses.txt)
-
-### Animate.css
-
-[Animate.css](https://daneden.github.io/animate.css/) by Dan Eden
-
-### Font Awesome Icons 
-
-[Font Awesome](http://fortawesome.github.io/Font-Awesome/) by Dave Gandy. Licensed under [MIT](http://opensource.org/licenses/mit-license.html)
-
-### Elegant Icons 
-
-[Elegant Icons](http://www.elegantthemes.com/blog/resources/elegant-icon-font/) by Elegant Themes. Licensed under [MIT](http://opensource.org/licenses/mit-license.html)
-
----
-
-# IDEA
-
-Personal blog about the most important :)
-
-### Митлоник - это:
+## Митлоник - это:
 * Метла и слоник
-* Помощь животным (а в перспективе и людям
+* Помощь животным (а в перспективе и людям )
 * Приложение ресторанной еды с особенностями национальной кухни.
 
 ### Логотип:
 * Сверическая буква М (словно смотришь через лупу) . Можно даже ручку лупы и дорисовать;
 * Анимированная лупа-переход к человечку и выглядывают разные звери. Фон меняется в зависимости от ареала категории животного.
+
+---
+## Новое начало
+
+**mitlonik.github.io** - сайт технической документации, накопившейся в виде моих персональных заметок, которым не место на пыльной полке - пусть лучше приносят пользу обществу, которое и дало мне весь багаж знаний.
+
+### Разделы
+
+- *traefik*
+- *jwilder*
+- *sonarqube*
+
+... это будет структурированная энциклопедия айтишника.
