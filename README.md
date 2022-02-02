@@ -1,5 +1,4 @@
 Hi. I’m Mitlonik.
-<img align="right" alt="GIF" src="https://github.com/zhooravell/zhooravell/blob/main/img/development.gif?raw=true" width="250" height="250" />
 
 [![linkedin][linkedin-image]][linkedin-link] [![facebook][fb-image]][fb-link] [![telegram][telegram-image]][telegram-link]
 
