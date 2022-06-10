@@ -3185,7 +3185,7 @@ img {
   }
 }
 .b-slider-line {
-  height: 818px;
+  height: 336px;
 }
 @media (max-width: 1190px) {
   .b-slider-line {
@@ -3270,7 +3270,7 @@ img {
 
 .b-page-header-slider__img {
   width: 100%;
-  height: 818px;
+  height: 336px;
 }
 
 .b-header {
@@ -3410,7 +3410,7 @@ img {
 
 @media (max-width: 1190px) {
   .b-menu-list-item:hover, .b-footer-menu-item:hover {
-    background-color: #937c6c;
+    background-color: #063f0d;
     color: white;
   }
 }
@@ -3479,7 +3479,7 @@ img {
   src: url(../fonts/helveticaneuecyr-roman.woff);
 }
 .b-footer {
-  background-color: #937c6c;
+  background-color: #063f0d;
   width: 100%;
   margin-top: 4%;
   height: auto;
@@ -3672,50 +3672,50 @@ img {
   color: #a88f7f;
 }
 
-.b-bengal-padding {
+.b-abcd1-padding {
   margin-top: 4%;
   box-shadow: 0 5px 2px -3px rgba(0, 0, 0, 0.3);
 }
 
-.b-bengal-cats-head {
+.b-abcd1-ololo-head {
   font-size: 24px;
   color: #a88f7f;
   padding-top: 2.5%;
   padding-left: 21%;
 }
 @media (max-width: 1190px) {
-  .b-bengal-cats-head {
+  .b-abcd1-ololo-head {
     width: 181px;
     padding-left: 0;
     padding-top: 0;
   }
 }
 
-.b-bengal-cats-head-line {
+.b-abcd1-ololo-head-line {
   padding-bottom: 19px;
   border-top: 1px solid #fafafa;
 }
 @media (max-width: 1190px) {
-  .b-bengal-cats-head-line {
+  .b-abcd1-ololo-head-line {
     height: 50px;
   }
 }
 
-.b-bengal-cats__col1 {
+.b-abcd1-ololo__col1 {
   float: left;
   width: 51.5%;
   padding-left: 17px;
   padding-top: 2px;
 }
 @media (max-width: 1190px) {
-  .b-bengal-cats__col1 {
+  .b-abcd1-ololo__col1 {
     float: none;
     width: 100%;
     padding-left: 0;
   }
 }
 
-.b-bengal-cats__col2, .b-abyssian-cats-text {
+.b-abcd1-ololo__col2, .b-abcd2-ololo-text {
   float: right;
   width: 48%;
   text-align: left;
@@ -3724,7 +3724,7 @@ img {
   padding-top: 29px;
 }
 @media (max-width: 1190px) {
-  .b-bengal-cats__col2, .b-abyssian-cats-text {
+  .b-abcd1-ololo__col2, .b-abcd2-ololo-text {
     float: none;
     width: 100%;
     padding-top: 20px;
@@ -3733,17 +3733,17 @@ img {
   }
 }
 
-.b-bengal-cats-photos {
+.b-abcd1-ololo-photos {
   z-index: 1;
   text-align: left;
   position: relative;
 }
 
-.b-bengal-cats-photos__img {
+.b-abcd1-ololo-photos__img {
   width: 100%;
 }
 
-.b-bengal-cats-button {
+.b-abcd1-ololo-button {
   display: block;
   background-color: white;
   color: #a48978;
@@ -3756,7 +3756,7 @@ img {
   font-size: 16px;
 }
 
-.b-bengal-cats-text__text, .b-abyssian-cats-text {
+.b-abcd1-ololo-text__text, .b-abcd2-ololo-text {
   color: #7a7a7a;
   font-size: 14px;
   font-family: 'Raleway';
@@ -3764,7 +3764,7 @@ img {
   margin-bottom: 10px;
 }
 
-.b-abyssian-cats-head {
+.b-abcd2-ololo-head {
   text-align: left;
   padding-left: 28px;
   padding-top: 4px;
@@ -3773,12 +3773,12 @@ img {
   margin-top: 4.5%;
 }
 @media (max-width: 1190px) {
-  .b-abyssian-cats-head {
+  .b-abcd2-ololo-head {
     padding-left: 15px;
   }
 }
 
-.b-abyssian-cats-head_text {
+.b-abcd2-ololo-head_text {
   text-transform: uppercase;
   color: #ae9889;
   font-family: 'Raleway';
@@ -3786,11 +3786,11 @@ img {
   font-size: 24px;
 }
 
-.b-abyssian-cats-button {
+.b-abcd2-ololo-button {
   padding-top: 11px;
 }
 
-.b-abyssian-cats-button__button {
+.b-abcd2-ololo-button__button {
   display: block;
   background-color: white;
   color: #a48978;
@@ -3803,47 +3803,47 @@ img {
   font-size: 16px;
 }
 
-.b-abyssian-cats {
+.b-abcd2-ololo {
   width: 100%;
 }
 
-.b-abyssian-cats-col1 {
+.b-abcd2-ololo-col1 {
   float: left;
   width: 50%;
 }
 @media (max-width: 1190px) {
-  .b-abyssian-cats-col1 {
+  .b-abcd2-ololo-col1 {
     width: 100%;
     float: none;
   }
 }
 
-.b-abyssian-cats-col2 {
+.b-abcd2-ololo-col2 {
   float: right;
   width: 48%;
   margin-left: 20px;
 }
 @media (max-width: 1190px) {
-  .b-abyssian-cats-col2 {
+  .b-abcd2-ololo-col2 {
     float: none;
     width: 100%;
     margin-left: 0;
   }
 }
 
-.b-abyssian-cats-text {
+.b-abcd2-ololo-text {
   width: 100%;
   padding-left: 27px;
   padding-top: 30px;
 }
 @media (max-width: 1190px) {
-  .b-abyssian-cats-text {
+  .b-abcd2-ololo-text {
     padding-left: 16px;
     padding-top: 20px;
   }
 }
 
-.b-abyssian-cats-text_second-text {
+.b-abcd2-ololo-text_second-text {
   padding-top: 4px;
 }
 
