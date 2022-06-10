@@ -1,23 +1,36 @@
-Hi. I’m Mitlonik.
+# IDEA 
 
-[![linkedin][linkedin-image]][linkedin-link] [![facebook][fb-image]][fb-link] [![telegram][telegram-image]][telegram-link]
+Personal blog about the most important :)
 
-### Glad to see you here!
-I am a DevOps engineer.
-> Talk is cheap. Show me the code ~ Linus Torvalds
+### Митлоник - это:
+* Метла и слоник
+* MIT 
+* Помощь животным (а в перспективе и людям
+* Приложение ресторанной еды с особенностями национальной кухни. 
 
-### My GitHub Stats:
+### Логотип:
+* Сверическая буква М (словно смотришь через лупу) . Можно даже ручку лупы и дорисовать 
+* Анимированная лупа-переход к человечку и выглядывают разные звери. Фон меняется в зависимости от ареала категории животного. 
 
-<p>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=mitlonik&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mitlonik&exclude_repo=KNN-Image-Classification&show_icons=true&hide_border=true&layout=compact&langs_count=8"/>
-</p>
 
-[linkedin-link]: https://www.linkedin.com/in/dmitry-zavedeev/
-[linkedin-image]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
 
-[fb-link]: https://www.facebook.com/mitiyanya/
-[fb-image]: https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white
+<!-- notes -->
+## Notes
 
-[telegram-link]: https://t.me/mitlonik
-[telegram-image]: https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white
+* footer-menu font:
+
+    #063f0d - green
+
+
+Logo: Mitlonik
+
+шрифт - Chalkduster
+стиль шрифта - Regular/Sample
+18 пт
+сглаживание резкое
+
+
+имена классов:
+abcd1
+abcd2
+ololo
