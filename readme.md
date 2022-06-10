@@ -20,3 +20,17 @@ Personal blog about the most important :)
 * footer-menu font:
 
     #063f0d - green
+
+
+Logo: Mitlonik
+
+шрифт - Chalkduster
+стиль шрифта - Regular/Sample
+18 пт
+сглаживание резкое
+
+
+имена классов:
+abcd1
+abcd2
+ololo
